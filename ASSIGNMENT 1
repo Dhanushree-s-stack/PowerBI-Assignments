@@ -1,0 +1,71 @@
+Assignment - 1 Question               
+Objective – Power BI Desktop, Cloud Service and End to End Workflow 
+Use Case –   Connecting a File using Power BI Desktop and formatting the file  
+Source –  Sky Transport 
+Analytics – Create a new Power BI file, and load the Excel workbook 
+containing a list of the Transport Data 
+Report/Dashboard –  Transport Data 
+ 
+• You should hide the Category ID  and Origin State. 
+• Create a table showing by Customer Name 
+1. Revenue 
+2. Total Miles 
+3. Trip Type 
+• Summarize the Revenue & Total Miles 
+• Save this Power BI file with the name SkyData 
+ 
+Result -  At the end you will Create a new Power BI file, Hide a couple of 
+columns, Create a table
+
+Assignment 1 Steps
+
+Step 1: Open Power BI Desktop
+•	Launch Power BI Desktop on your computer.
+ 
+Step 2: Connect to the Excel Source File
+1.	Click Home tab > Get Data > Excel.
+2.	Browse to your Excel workbook containing the Transport Data.
+3.	Select the file and click Open.
+4.	In the Navigator window, select the worksheet or table with your transport data.
+5.	Click Load to import the data into Power BI.
+ 
+Step 3: Review and Transform Data (Power Query Editor)
+•	After loading, click Transform Data to open the Power Query Editor.
+•	Inspect the data columns for cleanliness and consistency.
+•	Make any necessary transformations (like changing data types, removing unwanted columns, fixing errors, etc.).
+ 
+Step 4: Hide Columns in Power BI Desktop
+•	Close & Apply the changes to return to the main Power BI window.
+•	In the Fields pane, locate Category ID and Origin State columns.
+•	Right-click on each and select Hide in Report View.
+o	This hides the columns from report visuals but keeps them in the model.
+ 
+Step 5: Create Table Visualization
+1.	In the Report view, click the Table visual icon from the Visualizations pane.
+2.	Drag the following fields into the Values section of the table visual:
+o	Customer Name (Rows)
+o	Revenue (Values)
+o	Total Miles (Values)
+o	Trip Type (Values)
+ 
+Step 6: Summarize Revenue & Total Miles
+•	For summarization:
+o	By default, Power BI sums numeric columns like Revenue and Total Miles.
+o	If it’s not set correctly, click the dropdown arrow beside each field in the Values area and select Sum.
+•	Ensure the table shows total Revenue and total Miles grouped by Customer Name.
+ 
+Step 7: Format the Table Visual (Optional but Recommended)
+•	Click the Format pane (paint roller icon).
+•	Adjust settings such as:
+o	Column headers font size.
+o	Grid lines.
+o	Values alignment.
+o	Table style for better readability.
+ 
+Step 8: Save Your Power BI File
+•	Click File > Save As.
+•	Name the file SkyData.pbix.
+•	Choose a location and save.
+
+Dashboard
+
